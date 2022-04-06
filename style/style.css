@@ -1,0 +1,60 @@
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+input[type=checkbox]:checked + li {
+    background-color: red;
+}
+body{
+    background-color: orange;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+    border-bottom: 1px dotted black;
+}
+.container{
+    border-bottom: 1px dotted black;
+}
+
+.topo,
+.listaContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0.3px solid black;
+}
+label{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btnAddItem,
+.item{
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btnDelItem{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#lista.lista{
+    list-style: none;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
